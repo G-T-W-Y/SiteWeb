@@ -164,3 +164,14 @@ body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 375px) {
+    body > header > nav > div > div {
+      height: 100vh;
+    }
+
+    body > header > nav > div > div > ul.nav.navbar-nav.navbar-nav-first > li > a {
+      line-height: 16px;
+      border-bottom: 2px solid #29ca8e;
+    }
+}
