@@ -1,6 +1,5 @@
-
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .custom-navbar {
@@ -90,46 +89,52 @@ body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
 }
 
 .caption {
-  position: absolute;
-  top: 30%;
- }
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.item h1,
+.item h6 {
+    margin-bottom: 2rem;
+}
 
 
 .section-btn {
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color:rgba(255, 255, 255, 0.1);
-  border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
 }
 
 .section-btn:hover,
 .section-btn:active {
-  background-color: #fff;
-  color: #000;
+    background-color: #fff;
+    color: #000;
 }
 
 
 .home-slider .item-first {
     background-image: url("../img/slider-1.jpg");
-    
+
 
 }
 
 .home-slider .item-second {
     background-image: url("../img/slider-2.jpg");
-    
+
 }
 
 .home-slider .item-third {
     background-image: url("../img/slider-3.jpg");
-    
+
 }
 
 .home-slider .item-first,
@@ -159,5 +164,3 @@ body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
         text-align: center;
     }
 }
-
-
