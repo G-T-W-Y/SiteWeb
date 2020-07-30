@@ -1,104 +1,152 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 
+body {
+    overflow-x: hidden;
+}
+
 .custom-navbar {
-	background: #fff;
-	border-top: 5px solid #29ca8e;
-	border-bottom: 0;
-	-webkit-box-shadow: 0 1px 30px rgba(0,0,0,0.1);
-	-moz-box-shadow: 0 1px 30px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 30px rgba(0,0,0,0.1);
-	padding: 12px 0;
-	margin-bottom: 0;
-	padding: 0;
+    background: #fff;
+    border-top: 5px solid #29ca8e;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 .custom-navbar .navbar-brand {
-	color: #2b2929;
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 40px;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
 }
 
 .custom-navbar .navbar-nav.navbar-nav-first {
-	margin-left: 8em;
+    margin-left: 8em;
 }
 
 .custom-navbar .navbar-nav.navbar-right li a {
-	padding-right: 12px;
-	padding-left: 12px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 .custom-navbar .navbar-nav.navbar-right li a .fa {
-	background: #29ca8e;
-	border-radius: 100%;
-	color: #fff;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	display: inline-block;
-	margin-right: 5px;
+    background: #29ca8e;
+    border-radius: 100%;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 .custom-navbar .nav li a {
-	line-height: 40px;
-	color: #252424;
-	padding: 1em;
-	text-decoration: none;
+    line-height: 40px;
+    color: #252424;
+    padding: 1em;
+    text-decoration: none;
 }
 
-.custom-navbar .navbar-nav > li > a:hover,
-.custom-navbar .navbar-nav > li > a:focus {
-	background-color: transparent;
+.custom-navbar .navbar-nav>li>a:hover,
+.custom-navbar .navbar-nav>li>a:focus {
+    background-color: transparent;
 }
 
 .custom-navbar .nav li a:hover {
-	background-color: #29ca8e;
-	color: #fff;
-} 
-
-.custom-navbar .nav li.active > a {
-	background-color: #29ca8e;
-	color: #fff;
+    background-color: #29ca8e;
+    color: #fff;
 }
 
-body > header > nav > div > div > ul.nav.navbar-nav.navbar-right > li > a > i:hover {
-	background-color: #fff;
-	color: #29ca8e;
+.custom-navbar .nav li.active>a {
+    background-color: #29ca8e;
+    color: #fff;
+}
+
+body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
+    background-color: #fff;
+    color: #29ca8e;
 }
 
 .custom-navbar .navbar-toggle {
-	border: none;
-	padding-top: 10px;
-	background-color: transparent;	
+    border: none;
+    padding-top: 10px;
+    background-color: transparent;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-	background: #252525;
-	border-color: transparent;
+    background: #252525;
+    border-color: transparent;
 }
+
+
+/*Carousel*/
+
+.item {
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 30%;
+}
+
+
+.section-btn {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+}
+
+.section-btn:hover,
+.section-btn:active {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.home-slider .item-first {
+    background-image: url("../images/working-woman-technology-computer.jpg");
+    background-position: center;
+}
+
+.home-slider .item-second {
+    background-image: url("../images/person-looking-at-phone-and-at-macbook-pro.jpg");
+}
+
+.home-slider .item-third {
+    background-image: url("../images/gray-laptop-computer-showing-html-codes-in-shallow-focus.jpg");
+}
+
+
 
 @media only screen and (max-width: 1200px) {
-	body > header > nav > div > div > ul.nav.navbar-nav.navbar-nav-first {
-		margin: 0 auto;
-		text-align: center;
-	}
+    body>header>nav>div>div>ul.nav.navbar-nav.navbar-nav-first {
+        margin: 0 auto;
+        text-align: center;
+    }
 
-	body > header > nav > div > div > ul.nav.navbar-nav.navbar-nav-first > li a {
-		display: block;
-		width: 100%;
-	}
+    body>header>nav>div>div>ul.nav.navbar-nav.navbar-nav-first>li a {
+        display: block;
+        width: 100%;
+    }
 
-	body > header > nav > div > div > ul.nav.navbar-nav.navbar-right > li a {
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
+    body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
-
-
-
-
-
-
-
