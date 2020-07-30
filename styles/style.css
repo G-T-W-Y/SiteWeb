@@ -43,8 +43,8 @@
 .custom-navbar .nav li a {
 	line-height: 40px;
 	color: #252424;
-	padding-right: 22px;
-	padding-left: 22px;
+	padding: 1em;
+	text-decoration: none;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -62,20 +62,43 @@
 	color: #fff;
 }
 
-.custom-navbar .navbar-toggle {
-	border: none;
-	padding-top: 10px;
-	
+body > header > nav > div > div > ul.nav.navbar-nav.navbar-right > li > a > i:hover {
+	background-color: #fff;
+	color: #29ca8e;
 }
 
 .custom-navbar .navbar-toggle {
-	background-color: transparent;
+	border: none;
+	padding-top: 10px;
+	background-color: transparent;	
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
 	background: #252525;
 	border-color: transparent;
 }
+
+@media only screen and (max-width: 1200px) {
+	body > header > nav > div > div > ul.nav.navbar-nav.navbar-nav-first {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	body > header > nav > div > div > ul.nav.navbar-nav.navbar-nav-first > li a {
+		display: block;
+		width: 100%;
+	}
+
+	body > header > nav > div > div > ul.nav.navbar-nav.navbar-right > li a {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+
 
 
 
