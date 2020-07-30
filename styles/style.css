@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .custom-navbar {
@@ -82,55 +81,65 @@ body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
     border-color: transparent;
 }
 
-
-/*Carousel*/
+/*Slider*/
 
 .item {
-    height: 100vh;
+    height: 95vh;
     color: white;
     position: relative;
 }
 
 .caption {
-    position: absolute;
-    top: 30%;
-}
+  position: absolute;
+  top: 30%;
+ }
 
 
 .section-btn {
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 2px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
 }
 
 .section-btn:hover,
 .section-btn:active {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
 
 
 .home-slider .item-first {
-    background-image: url("../images/working-woman-technology-computer.jpg");
-    background-position: center;
+    background-image: url("../img/slider-1.jpg");
+    
+
 }
 
 .home-slider .item-second {
-    background-image: url("../images/person-looking-at-phone-and-at-macbook-pro.jpg");
+    background-image: url("../img/slider-2.jpg");
+    
 }
 
 .home-slider .item-third {
-    background-image: url("../images/gray-laptop-computer-showing-html-codes-in-shallow-focus.jpg");
+    background-image: url("../img/slider-3.jpg");
+    
 }
 
+.home-slider .item-first,
+.home-slider .item-second,
+.home-slider .item-third {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -150,3 +159,5 @@ body>header>nav>div>div>ul.nav.navbar-nav.navbar-right>li>a>i:hover {
         text-align: center;
     }
 }
+
+

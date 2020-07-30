@@ -21,7 +21,3 @@ $('.home-slider').owlCarousel({
       autoplay: true,
       smartSpeed: 1000,
 })
-
-
-
-
