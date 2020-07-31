@@ -1,0 +1,74 @@
+/*Responsive*/
+
+@media only screen and (max-width: 1200px) {
+    .custom-navbar .navbar-nav.navbar-nav-first {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .custom-navbar .navbar-nav.navbar-nav-first>li a {
+        display: block;
+        width: 100%;
+    }
+
+    .custom-navbar .navbar-nav.navbar-right>li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .custom-navbar .navbar-nav.navbar-nav-first > li > a { 
+      line-height: 16px;
+      border-bottom: 2px solid #29ca8e;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #home h3 {
+        font-size: 14px;
+    }
+
+    .entry-form {
+        border-radius: 0;
+        padding: 2em;
+        max-width: 100%;
+        max-height: 100%;
+        width: inherit;
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .about {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+
+    .team {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: auto;
+    }
+
+    a.navbar-brand {
+        margin-left: 1rem; 
+    }
+
+    button.navbar-toggler {
+        margin-right: 1rem; 
+    }
+
+
+}
