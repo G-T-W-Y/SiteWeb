@@ -258,7 +258,7 @@ figure i.fa {
 
 .author-1 {
     background-image: url("../img/author-image-1.jpg");
-
+    background-position: center;
 }
 
 .author-2 {
@@ -268,7 +268,7 @@ figure i.fa {
 
 .author-3 {
     background-image: url("../img/author-image-3.jpg");
-    
+    background-position: center;
 }
 
 .author-4 {
@@ -370,6 +370,7 @@ figure i.fa {
     height: 75px;
     border-radius: 100%;
     background-size: 75px;
+    background-repeat: no-repeat;
 }
 
 .author-1 {
