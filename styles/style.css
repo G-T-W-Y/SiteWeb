@@ -2,7 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .navbar-fixed-top {
     position: fixed;
     top: 0;
@@ -93,7 +92,7 @@ body {
 /*Slider*/
 
 .item {
-    height: 95vh;
+    height: 100vh;
     color: white;
     position: relative;
 }
@@ -241,11 +240,17 @@ figure i.fa {
     justify-content: center;
     text-align: center;
     margin-bottom: 2rem;
+
+}
+
+.team-thumb {
+    padding: 1rem;
+    background-color: rgb(250,249,250);
 }
 
 .team-image {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     background-repeat: no-repeat;
     background-size: 250px;
     margin-bottom: 1rem;
@@ -253,6 +258,7 @@ figure i.fa {
 
 .author-1 {
     background-image: url("../img/author-image-1.jpg");
+
 }
 
 .author-2 {
@@ -262,7 +268,7 @@ figure i.fa {
 
 .author-3 {
     background-image: url("../img/author-image-3.jpg");
-    background-position: right;
+    
 }
 
 .author-4 {
@@ -301,3 +307,123 @@ figure i.fa {
     background: #29ca8e;
     color: #fff;
 }
+
+/*Courses*/
+
+.courses {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.courses .item {
+    width: 350px;
+    height: auto;
+    background-color: rgb(250,249,250);
+    margin-bottom: 1rem;
+}
+
+.courses-top {
+    position: relative;
+}
+
+.courses-image {
+    background: linear-gradient(to right, #202020, #101010);
+}
+
+.courses-image img {
+    height: 250px;
+}
+
+.courses-detail {
+    padding: 1rem;
+}
+
+.courses-detail h3,
+.courses-detail p {
+    min-height: 70px;
+}
+
+.courses-detail,
+.courses-detail a {
+    color: #212529;
+}
+
+.courses-date {
+    background-image: linear-gradient(#fff, #555);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.courses-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.courses-author {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-size: 75px;
+}
+
+.author-1 {
+    background-image: url(..//img/author-image-1.jpg);
+    background-position: top; 
+}
+
+.author-2 {
+    background-image: url(..//img/author-image-2.jpg);
+    background-position: bottom; 
+}
+
+.author-3 {
+    background-image: url(..//img/author-image-3.jpg);
+    background-position: top; 
+}
+
+.author-4 {
+    background-image: url(..//img/author-image-4.jpg);
+    background-position: top; 
+}
+
+.author-name span {
+    font-size: 1.2rem;
+    color: #212529;
+}
+
+.courses-price span {
+    background-color: #29ca8e;
+    color: #fff;
+    padding: .5rem;
+}
+
+.courses-price a {
+    text-decoration: none;
+}
+
+/*Pagination*/
+
+#courses > div > div > div > div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag > div.owl-nav > button.owl-prev > i,
+#courses > div > div > div > div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag > div.owl-nav > button.owl-next > i {
+    
+    background-color: rgb(217,214,217);
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: 2rem;
+}
+
+#courses > div > div > div > div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag > div.owl-nav > button.owl-prev > i:hover,
+#courses > div > div > div > div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag > div.owl-nav > button.owl-next > i:hover {
+    
+    background-color: rgb(138,146,147);
+    
+}
+
+
+
