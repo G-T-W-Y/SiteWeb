@@ -45,3 +45,22 @@ $('.owl-courses').owlCarousel({
         }
     }
 });
+
+$('.owl-client').owlCarousel({
+    animateOut: 'fadeOut',
+    loop: true,
+    dots: true,
+    autoplayHoverPause: false,
+    autoplay: true,
+    smartSpeed: 1000,
+    nav: false,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        1000: {
+            items: 3,
+        }
+    }
+});

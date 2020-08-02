@@ -95,6 +95,10 @@
         width: 100%;
     }
 
+    .courses-detail p {
+        min-height: auto;
+    }
+
     #courses>div>div>div>div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag>div.owl-nav>button.owl-prev>i,
     #courses>div>div>div>div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag>div.owl-nav>button.owl-next>i {
 
@@ -103,5 +107,11 @@
         padding: .25rem .5rem;
         font-size: 1rem;
     }
+
+    /*.tst {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: auto;
+    }*/
 
 }
