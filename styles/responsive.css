@@ -116,13 +116,22 @@
         margin-bottom: 1rem;
     }
 
+    .tst .item {
+        width: 320px;
+    }
+
     .contact-image img {
         display: none;
     }
 
+    .map {
+        height: auto;
+        margin: 0;
+    }
+
     .footer {
         height: auto;
-        padding: 5rem 0; 
+        padding: 2rem 0;
     }
 
 }

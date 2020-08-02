@@ -260,29 +260,29 @@ body {
     width: 220px;
     height: 220px;
     background-repeat: no-repeat;
-    background-size: 250px;
+    background-size: cover;
     margin-bottom: 1rem;
 }
 
 .team .author-1 {
     background-image: url("../img/author-image-1.jpg");
-    background-position: center;
+   
 }
 
 .team .author-2 {
     background-image: url("../img/author-image-2.jpg");
-    background-position: bottom;
+    
 }
 
 .team .author-3 {
     background-image: url("../img/author-image-3.jpg");
-    background-position: center;
+    
+
 }
 
 .team .author-4 {
     background-image: url("../img/author-image-4.jpg");
-    background-position: center;
-    background-size: 400px;
+    
 }
 
 .social-icon {
@@ -358,8 +358,7 @@ body {
     padding: 1rem;
 }
 
-.courses-detail h3,
-.courses-detail p {
+.courses-detail h3 {
     min-height: 70px;
 }
 
@@ -514,11 +513,18 @@ body {
     text-align: left;
     justify-content: flex-start;
     padding-left: 1rem;
+    margin-bottom: 1rem;
 }
 
 #contact-form > div.col-md-12.col-sm-12 > input,
 #contact-form > div.col-md-12.col-sm-12 > textarea {
-    margin-bottom: 1rem;
+    background: transparent;
+    margin-bottom: 2rem;
+}
+
+#contact-form > div.col-md-12.col-sm-12 > input::placeholder,
+#contact-form > div.col-md-12.col-sm-12 > textarea::placeholder{
+    color: rgba(255,255,255,0.5);
 }
 
 #contact-form > div.col-md-12.col-sm-12 > textarea {
@@ -543,15 +549,13 @@ body {
 
 
 .map {
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 800px;
+    margin-bottom: 2rem;
 }
 
 .text-map {
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 /*Footer*/
@@ -561,17 +565,17 @@ body {
     align-items: center;
     justify-content: center;
     height: 600px;
+    padding-top: 1rem;
     background-color: rgb(37,31,32);
     color: rgb(103,98,98);
 }
 
 .footer-info {
     max-width: 300px;
-    margin-top: 5rem;
 }
 
 .footer .section-title {
-    padding-left: 0;
+    padding: 0;
 }
 
 .footer .form-group input:first-child {
