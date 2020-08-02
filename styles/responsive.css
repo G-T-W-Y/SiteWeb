@@ -35,7 +35,7 @@
         font-size: 14px;
     }
 
-    .entry-form {
+    .about .entry-form {
         border-radius: 0;
         padding: 2em;
         max-width: 100%;
@@ -46,6 +46,14 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+     a.navbar-brand {
+        margin-left: 1rem;
+    }
+
+    button.navbar-toggler {
+        margin-right: 1rem;
+    }
 
     .about {
         margin-top: 1rem;
@@ -59,31 +67,24 @@
         height: auto;
     }
 
-    .team-thumb {
+    .team .team-thumb {
         margin-bottom: 1rem;
     }
 
-    .team-image {
+    .team .team-image {
         width: 100%;
     }
 
-    .team-info {
-        width: 100%;
-        margin-left: 2rem;
-    }
-
-    .social-icon {
+    .team .team-info {
         width: 100%;
         margin-left: 2rem;
     }
 
-    a.navbar-brand {
-        margin-left: 1rem;
+    .team .social-icon {
+        width: 100%;
+        margin-left: 2rem;
     }
 
-    button.navbar-toggler {
-        margin-right: 1rem;
-    }
 
     .courses {
         margin-top: 1rem;
@@ -113,7 +114,6 @@
     .tst {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        height: auto;
     }
 
     .contact-image img {

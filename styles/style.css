@@ -91,25 +91,25 @@ body {
 
 /*Slider*/
 
-.item {
+.slider .item {
     height: 100vh;
     color: white;
     position: relative;
 }
 
-.caption {
+.slider .caption {
     position: absolute;
     bottom: 10%;
     left: 5%;
 }
 
-.item h1,
-.item h6 {
+.slider .item h1,
+.slider .item h6 {
     margin-bottom: 2rem;
 }
 
 
-.section-btn {
+.slider .section-btn {
     color: white;
     padding: 10px 30px;
     text-align: center;
@@ -124,12 +124,12 @@ body {
 
 }
 
-a.section-btn {
+.slider a.section-btn {
     text-decoration: none;
 }
 
-.section-btn:hover,
-.section-btn:active {
+.slider .section-btn:hover,
+.slider .section-btn:active {
     background-color: #fff;
     color: #000;
 }
@@ -179,7 +179,7 @@ a.section-btn {
     justify-content: space-between;
 }
 
-figure i.fa {
+.about figure i.fa {
     font-size: 1.5rem;
     background: #29ca8e;
     border-radius: 100%;
@@ -192,7 +192,7 @@ figure i.fa {
     margin-right: 1rem;
 }
 
-.entry-form {
+.about .entry-form {
     background: #252020;
     border-radius: 100%;
     text-align: center;
@@ -201,7 +201,7 @@ figure i.fa {
     height: 450px;
 }
 
-.entry-form h2 {
+.about .entry-form h2 {
     color: #fff;
     margin: 0;
 }
@@ -240,20 +240,23 @@ figure i.fa {
     height: 100vh;
 }
 
-.section-title {
+.team .section-title {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 2rem;
-
 }
 
-.team-thumb {
+.team .section-title h2 {
+    color: #000;
+}
+
+.team .team-thumb {
     padding: 1rem;
     background-color: rgb(250,249,250);
 }
 
-.team-image {
+.team .team-image {
     width: 220px;
     height: 220px;
     background-repeat: no-repeat;
@@ -261,22 +264,22 @@ figure i.fa {
     margin-bottom: 1rem;
 }
 
-.author-1 {
+.team .author-1 {
     background-image: url("../img/author-image-1.jpg");
     background-position: center;
 }
 
-.author-2 {
+.team .author-2 {
     background-image: url("../img/author-image-2.jpg");
     background-position: bottom;
 }
 
-.author-3 {
+.team .author-3 {
     background-image: url("../img/author-image-3.jpg");
     background-position: center;
 }
 
-.author-4 {
+.team .author-4 {
     background-image: url("../img/author-image-4.jpg");
     background-position: center;
     background-size: 400px;
@@ -319,6 +322,17 @@ figure i.fa {
     display: flex;
     align-items: center;
     height: 100vh;
+}
+
+.courses .section-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.courses .section-title h2 {
+    color: #000;
 }
 
 .courses .item {
@@ -431,18 +445,28 @@ figure i.fa {
     
 }
 
-<!-- Testimonial -->
+/*Testimonial*/
 
 .tst {
     display: flex;
     align-items: center;
-    height: 100vh;
     background-color: rgb(250,249,250);
+    height: 100vh;
+}
+
+.tst .section-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.tst .section-title h2 {
+    color: #000;
 }
 
 .tst .item {
     width: 350px;
-    height: auto;
     background-color: #fff;
     padding: 2rem 1rem 3rem; 
     margin-bottom: 1rem;
