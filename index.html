@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Known - Education HTML Template</title>
+    <title>Known</title>
     <meta charset="UTF-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="description" content="Education HTML Template" />
+    <meta name="keywords" content="HTML, CSS, JS, Bootstrap, Jquery" />
+    <meta name="author" content="Vladimir Rybalsky" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="icon" href="img/icon.png">
     <!-- Bootstrap -->
@@ -448,7 +448,101 @@
                 </div>
             </div>
         </section>
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <form id="contact-form" role="form" action="" method="post">
+                            <div class="section-title">
+                                <h2>Contact us <br><small>we love conversations. let us talk!</small></h2>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <input type="text" name="name" class="form-control" placeholder="Enter full name" required="">
+                                <input type="emai" name="email" class="form-control" placeholder="Enter email address" required="">
+                                <textarea class="form-control" rows="6" placeholder="Tell us about your message" name="message" required=""></textarea>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <input type="submit" name="send message" class="form-control" value="Send Message">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="contact-image">
+                            <img src="img/contact-image.jpg" class="img-responsive" alt="Smiling Two Girls">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- location/map -->
+        <section id="map" class="section-map">
+           <div class="row">
+                <div class="map">
+                    <h2 class="text-map">Where we are...</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10877.94042404854!2d28.823857!3d47.030711!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x98c10ca8ee46f3d9!2z0KLQtdGF0L3QuNGH0LXRgdC60LjQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINCc0L7Qu9C00L7QstGL!5e0!3m2!1sru!2sua!4v1596378546323!5m2!1sru!2sua" width="100%" height="800" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                        <div class="section-title">
+                            <h2>Headquarter</h2>
+                        </div>
+                        <address>
+                            <p>1800 dapibus a tortor pretium,<br>integer nisl dui, ABC 12000</p>
+                        </address>
+                        <ul class="social-icon">
+                            <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                            <li><a href="#" class="fa fa-twitter"></a></li>
+                            <li><a href="#" class="fa fa-instagram"></a></li>
+                        </ul>
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2020 GTWY</p>
+                            <p>Design: TemplateMo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="footer-info">
+                        <div class="section-title">
+                            <h2>Contact info</h2>
+                        </div>
+                        <address>
+                            <p>+65 2244 1100, +66 1800 1100</p>
+                            <p><a href="mailto:youremail.co">hello@youremail.co</a></p>
+                        </address>
+                        <h2>Quick Links</h2>
+                        <ul class="quick-links">
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Investor</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="footer-info newsletter-form">
+                        <div class="section-title">
+                            <h2>Newsletter SignUp</h2>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <form action="#" method="get">
+                            <input type="email" name="email" class="form-control" placeholder="Enter your email" id="email" required="">
+                            <input type="submit" name="submit" class="form-control" id="form-submit" value="Send me">
+                        </form>
+                        <span><sup>*</sup>Please note - we do not spam your email.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Bootstrap -->

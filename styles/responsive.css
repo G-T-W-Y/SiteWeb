@@ -100,18 +100,29 @@
     }
 
     #courses>div>div>div>div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag>div.owl-nav>button.owl-prev>i,
-    #courses>div>div>div>div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag>div.owl-nav>button.owl-next>i {
+    #courses>div>div>div>div.owl-carousel.owl-theme.owl-courses.owl-loaded.owl-drag>div.owl-nav>button.owl-next>i 
 
+    {
+       
         background-color: rgb(217, 214, 217);
         color: #fff;
         padding: .25rem .5rem;
         font-size: 1rem;
     }
 
-    /*.tst {
+    .tst {
         margin-top: 1rem;
         margin-bottom: 1rem;
         height: auto;
-    }*/
+    }
+
+    .contact-image img {
+        display: none;
+    }
+
+    .footer {
+        height: auto;
+        padding: 5rem 0; 
+    }
 
 }

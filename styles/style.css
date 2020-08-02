@@ -99,7 +99,7 @@ body {
 
 .caption {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 5%;
 }
 
@@ -147,8 +147,7 @@ a.section-btn {
 }
 
 .home-slider .item-third {
-    background-image: url("../img/slider-3.jpg");
-
+    background-image: linear-gradient(45deg, rgba(0,0,0,0.5) , transparent ), url("../img/slider-3.jpg");
 }
 
 .home-slider .item-first,
@@ -434,10 +433,6 @@ figure i.fa {
 
 <!-- Testimonial -->
 
-#testimonial {
-    /*background: black;*/
-}
-
 .tst {
     display: flex;
     align-items: center;
@@ -479,6 +474,143 @@ figure i.fa {
 
 .tst-rating .fa {
     color: #3f51b5;
+}
+
+/*Form*/
+
+.contact {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(63,80,182);
+}
+
+.section-title {
+    color: #fff;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+
+#contact-form > div.col-md-12.col-sm-12 > input,
+#contact-form > div.col-md-12.col-sm-12 > textarea {
+    margin-bottom: 1rem;
+}
+
+#contact-form > div.col-md-12.col-sm-12 > textarea {
+    resize: none;
+}
+
+#contact-form input[type="submit"] {
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+
+#contact-form input[type="submit"]:hover {
+    background: transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 600px;
+}
+
+
+.map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 800px;
+}
+
+.text-map {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgb(37,31,32);
+    color: rgb(103,98,98);
+}
+
+.footer-info {
+    max-width: 300px;
+    margin-top: 5rem;
+}
+
+.footer .section-title {
+    padding-left: 0;
+}
+
+.footer .form-group input:first-child {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer address a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer address a:hover {
+    color: lightblue; 
+    transition: 0.5s;   
+}
+
+.footer .footer-info h2 {
+    color: #fff;
+} 
+
+.footer ul.quick-links {
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.footer .quick-links li {
+    display: inline-block;
+    list-style: none;
+    padding: .2rem;
+}
+
+.footer .quick-links li a {
+    color: inherit; 
+    transition: 0.5s;
+}
+
+.footer .quick-links li a:hover {
+    text-decoration: none;
+    color: #29ca8e;
+}
+
+.footer .form-group input:first-child {
+    width: 80%;
+    border-radius: 0;
+}
+
+.footer .form-group input:last-child {
+    background: none;
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    transition: 0.5s;
+}
+
+.footer .form-group input:last-child:hover {
+    background: #fff;
+    color: inherit;
 }
 
 
