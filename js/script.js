@@ -68,3 +68,7 @@ $('.owl-client').owlCarousel({
         }
     }
 });
+
+// WOW JS
+
+new WOW().init();
