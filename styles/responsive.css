@@ -22,6 +22,7 @@
         border-bottom: 2px solid #29ca8e;
 
     }
+
 }
 
 @media only screen and (max-width: 768px) {}
@@ -53,6 +54,12 @@
 
     button.navbar-toggler {
         margin-right: 1rem;
+    }
+
+    .feature {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: auto;
     }
 
     .about {

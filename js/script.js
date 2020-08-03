@@ -39,9 +39,13 @@ $('.owl-courses').owlCarousel({
     responsive: {
         0: {
             items: 1,
+            nav: false,
+            dots: true
         },
         1000: {
             items: 3,
+            nav: true,
+            dots: false
         }
     }
 });
