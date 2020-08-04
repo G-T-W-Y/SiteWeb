@@ -58,7 +58,7 @@ $('.owl-courses').owlCarousel({
             dots: true
         },
 
-        750: {
+        768: {
             items: 2,
             nav: true,
             dots: false
@@ -86,7 +86,7 @@ $('.owl-client').owlCarousel({
             items: 1,
         },
 
-        750: {
+        768: {
             items: 2,
             nav: true,
             dots: false
