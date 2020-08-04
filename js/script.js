@@ -85,7 +85,7 @@ $('.owl-client').owlCarousel({
         0: {
             items: 1,
         },
-        
+
         750: {
             items: 2,
             nav: true,
@@ -94,8 +94,8 @@ $('.owl-client').owlCarousel({
 
         1200: {
             items: 3,
-            nav: true,
-            dots: false
+            nav: false,
+            dots: true
         }
     }
 });
