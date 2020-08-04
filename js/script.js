@@ -10,6 +10,21 @@ $(window).scroll(function() {
     }
 });
 
+//Smooth Scroll
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+    // Function. Custom easing pattern
+    // If this is set to anything other than null, will override the easing option above
+    customEasing: function (time) {
+
+        // return <your formulate with time as a multiplier>
+
+        // Example: easeInOut Quad
+        return time < 0.5 ? 2 * time * time : -1 + (4 - 2 * time) * time;
+
+    }
+});
+
 // Carousel
 
 $('.home-slider').owlCarousel({
@@ -42,7 +57,14 @@ $('.owl-courses').owlCarousel({
             nav: false,
             dots: true
         },
-        1000: {
+
+        750: {
+            items: 2,
+            nav: true,
+            dots: false
+        },
+
+        1200: {
             items: 3,
             nav: true,
             dots: false
@@ -63,8 +85,17 @@ $('.owl-client').owlCarousel({
         0: {
             items: 1,
         },
-        1000: {
+        
+        750: {
+            items: 2,
+            nav: true,
+            dots: false
+        },
+
+        1200: {
             items: 3,
+            nav: true,
+            dots: false
         }
     }
 });

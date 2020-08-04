@@ -25,7 +25,23 @@
 
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    a.navbar-brand {
+        margin-left: 1rem;
+    }
+
+    button.navbar-toggler {
+        margin-right: 1rem;
+    }
+
+    .team-thumb {
+        margin-bottom: 2rem;
+    }
+
+    .courses .item {
+        width: 300px;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     h1 {
@@ -48,13 +64,7 @@
 
 @media only screen and (max-width: 375px) {
 
-     a.navbar-brand {
-        margin-left: 1rem;
-    }
-
-    button.navbar-toggler {
-        margin-right: 1rem;
-    }
+     
 
     .feature {
         margin-top: 1rem;
